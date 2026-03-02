@@ -33,7 +33,10 @@ const styles = StyleSheet.create({
     padding: 16,
     marginVertical: 10,
     marginHorizontal: 12,
-    shadowRadius: 4,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.12,
+    shadowRadius: 10,
   },
   title: {
     textAlign: "center",
